@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moviie-app/static/css/main.733a5a2f.css",
+    "main.js": "/moviie-app/static/js/main.fc5f6d45.js",
+    "index.html": "/moviie-app/index.html",
+    "main.733a5a2f.css.map": "/moviie-app/static/css/main.733a5a2f.css.map",
+    "main.fc5f6d45.js.map": "/moviie-app/static/js/main.fc5f6d45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.733a5a2f.css",
+    "static/js/main.fc5f6d45.js"
+  ]
+}
