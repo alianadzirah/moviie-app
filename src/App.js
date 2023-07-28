@@ -97,7 +97,7 @@ function App(props) {
         <div className={styles.search}>
           <div className={styles.search_content}>
             <div className={styles.hero_logo}>
-              <img src="assets/moviie.png"></img>
+              <img src="https://i.imgur.com/8fzmRvD.png"></img>
             </div>
 
             <div>

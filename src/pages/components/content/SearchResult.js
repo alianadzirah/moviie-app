@@ -25,7 +25,16 @@ function LastWatch() {
         <div className={styles.content_row_result}>
           {movies.map(movie => {
             return (
-              <div key={movie.Movie_ID} className={styles.content_row_card}>
+              <div
+                key={movie.Movie_ID}
+                className={styles.content_row_card}
+                style={{
+                  backgroundImage: `url(${movie.Poster})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
+              >
                 <div className={styles.card_label}>
                   <p>{movie.Genre}</p>
                 </div>

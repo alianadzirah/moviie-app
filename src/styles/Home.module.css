@@ -49,6 +49,11 @@
 
 /* header style end here */
 
+.poster {
+    width: 100%;
+    display: inline-block;
+}
+
 /* hero style start here */
 .hero_content {
     width: 100%;
@@ -253,6 +258,7 @@
     margin-top: -5%;
     font-weight: 700;
     font-size: 250%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .card_title_main {
@@ -260,6 +266,7 @@
     margin-top: -10%;
     font-weight: 700;
     font-size: 250%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .card_detail_main {
@@ -272,6 +279,7 @@
     padding-top: 40%;
     width: 100%;
     display: flex;
+    color: black;
 }
 
 .content_row {
@@ -316,6 +324,7 @@
     margin-top: -10%;
     font-weight: 700;
     font-size: 250%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .card_detail {
@@ -329,7 +338,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ccc;
+    color: black;
     margin-left: 3%;
     font-size: 90%;
     font-weight: 400;
@@ -660,7 +669,7 @@
 
     .main_card_title {
         margin-left: 5%;
-        margin-top: -10%;
+        margin-top: -15%;
         font-weight: 700;
         font-size: 250%;
     }
@@ -670,6 +679,14 @@
         width: 100%;
         margin-left: 3%;
         display: flex;
+    }
+
+    .card_title_main {
+        margin-top: -15%;
+    }
+
+    .card_title {
+        margin-top: -15%;
     }
 
     .content_row {

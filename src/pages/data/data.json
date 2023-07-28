@@ -3,7 +3,7 @@
       {
           "Movie_ID": 2,
           "Title": "Parasite",
-          "Genre": "comedy",
+          "Genre": "thriller",
           "Duration": "1 hour 20 minutes",
           "Views": "21.1k",
           "Poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
@@ -13,7 +13,7 @@
       {
           "Movie_ID": 3,
           "Title": "The Favourite",
-          "Genre": "comedy",
+          "Genre": "history",
           "Duration": "1 hour 20 minutes",
           "Views": "21.1k",
           "Poster": "https://m.media-amazon.com/images/M/MV5BMTg1NzQwMDQxNV5BMl5BanBnXkFtZTgwNDg2NDYyNjM@._V1_.jpg",
@@ -23,7 +23,7 @@
       {
           "Movie_ID": 4,
           "Title": "The Farewell I",
-          "Genre": "comedy",
+          "Genre": "family",
           "Duration": "1 hour 20 minutes",
           "Views": "21.1k",
           "Poster": "https://m.media-amazon.com/images/M/MV5BMWE3MjViNWUtY2VjYS00ZDBjLTllMzYtN2FkY2QwYmRiMDhjXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_.jpg",
@@ -33,7 +33,7 @@
       {
           "Movie_ID": 11,
           "Title": "Marriage Story",
-          "Genre": "comedy",
+          "Genre": "romance",
           "Duration": "1 hour 20 minutes",
           "Views": "21.1k",
           "Poster": "https://m.media-amazon.com/images/M/MV5BZGVmY2RjNDgtMTc3Yy00YmY0LTgwODItYzBjNWJhNTRlYjdkXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg",

@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from "react";
 import styles from "../../../styles/Home.module.css";
-import data from '../../data/data.json';
+import data from "../../data/data.json";
 
 function LastWatch(props) {
   const [movies, setMovies] = useState(data.data);
-  const submovie = [];  
+  const submovie = [];
 
-  useEffect(()=>{
-    console.log("LastWatch movies: " , movies)
-  },[])
+  useEffect(() => {
+    console.log("LastWatch movies: ", movies);
+  }, []);
 
   movies.map((movie) => {
-    if (movie.Movie_ID > 2) {
-      submovie.push(movie)
+    if (movie.Movie_ID > 3) {
+      submovie.push(movie);
     }
-  })
+  });
 
   return (
     <>
@@ -28,7 +28,16 @@ function LastWatch(props) {
         </div>
 
         <div className={styles.content_main_row}>
-          <div key={movies[0].Movie_ID} className={styles.content_main_row_card}>
+          <div
+            key={movies[0].Movie_ID}
+            className={styles.content_main_row_card}
+            style={{
+              backgroundImage: `url(${movies[0].Poster})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
             <div className={styles.card_label}>
               <p>{movies[0].Genre}</p>
             </div>
@@ -50,7 +59,16 @@ function LastWatch(props) {
             </div>
           </div>
 
-          <div key={movies[1].Movie_ID} className={styles.content_main_row_card}>
+          <div
+            key={movies[1].Movie_ID}
+            className={styles.content_main_row_card}
+            style={{
+              backgroundImage: `url(${movies[1].Poster})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
             <div className={styles.card_label}>
               <p>{movies[1].Genre}</p>
             </div>
@@ -74,9 +92,18 @@ function LastWatch(props) {
         </div>
 
         <div className={styles.content_row}>
-          {submovie.map(movie => {
+          {submovie.map((movie) => {
             return (
-              <div key={movie.Movie_ID} className={styles.content_row_card}>
+              <div
+                key={movie.Movie_ID}
+                className={styles.content_row_card}
+                style={{
+                  backgroundImage: `url(${movie.Poster})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
+              >
                 <div className={styles.card_label}>
                   <p>{movie.Genre}</p>
                 </div>
